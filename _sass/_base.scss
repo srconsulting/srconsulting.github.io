@@ -83,6 +83,10 @@ aside {
         &:focus {
             color: darken($theme-primary, 10%);
         }
+        img {
+            width: 70px;
+            height: 53px;
+        }
     }
     .nav {
         > li {
@@ -116,6 +120,10 @@ aside {
             &:hover,
             &:focus {
                 color: white;
+            }
+            img {
+                width: 120px;
+                height: 86px;
             }
         }
         .nav > li > a,
